@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-1-hw</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kim birinchi bo-rishga go</h1>
+        <form action="" method="get" id="form_counting">
+            <label for="input_amound">
+                <span>Masofa</span>
+                <input type="number" id="input_amound" placeholder="enter in kilometres">
+            </label>
+            <button type="submit" id="hisoblash">Hisobla</button>
+        </form>
+
+        <div id="options">
+            <div class="option_item" id="walking">
+                <p>Walk</p>
+                <p id="walking__result">0</p>
+            </div>
+            <div class="option_item " id="bike">
+                <p>Bike</p>
+                <p id="bike__result">0</p>
+            </div>
+            <div class="option_item" id="car">
+                <p>Car</p>
+                <p id="car__result">0</p>
+            </div>
+            <div class="option_item" id="plane">
+                <p>Plane</p>
+                <p id="plane__result">0</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
